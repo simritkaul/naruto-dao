@@ -4,13 +4,25 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  /* background-color: #7700ee; */
   color: #fff;
   overflow-x: hidden;
 }
+
+.bg-tint {
+  background-color: rgba(0,0,0,0.7);
+  background-blend-mode: multiply;
+}
+
 #root {
   min-height: 100vh;
   display: flex;
+}
+
+.landing {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url('https://images4.alphacoders.com/128/128706.png');
 }
 
 h1 {
